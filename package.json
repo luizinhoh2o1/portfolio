@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "Fullstack"
+  ],
+  "author": "Alessandro Luiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
