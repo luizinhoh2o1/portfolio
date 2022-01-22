@@ -1,15 +1,17 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+const api = require('./backend/routes/index')
+require('dotenv').config();
 
 const app = express();
-const api = require('./backend/routes/index')
+app.use(bodyParser.json());
 
 app.get('/', (request, response) => {
     response.json({
-        'success' : true
+        success : true
     });
 });
 
 app.use('/api', api);
 
-const ServerPORT = 3000;
-app.listen(ServerPORT);
+app.listen(process.env.PORT);
