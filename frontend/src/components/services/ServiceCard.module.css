@@ -1,0 +1,27 @@
+.card {
+    flex-basis: 20rem;
+    padding: 0.5rem;
+    background-color: #32a8a6;    
+}
+
+.spacing {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    width: 24%;
+}
+
+.card h3 {
+    margin-left: 1rem;
+    background: #32a8a6;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    color: #fff;
+}

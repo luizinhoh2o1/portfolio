@@ -1,0 +1,35 @@
+.about {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    color: black;
+}
+
+.description {
+    flex: 1;
+    padding-right: 5rem;
+    z-index: 2;
+}
+
+.description h2 {
+    font-weight: lighter;
+    color: #32a8a6;
+    font-style: oblique;
+}
+
+.description p {
+    text-indent: 2em;
+    color: #002a44;
+    text-align: justify;
+}
+
+.myPicture {
+    max-width: 30%;
+    z-index: 2;
+    flex: 1;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: -10px 10px teal;
+}

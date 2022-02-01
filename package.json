@@ -4,7 +4,9 @@
   "description": "My Personal Portfolio",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "backend": "nodemon server.js",
+    "frontend": "cd frontend && yarn start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
     "start": "node server.js"
   },
   "keywords": [
@@ -19,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "concurrently": "^7.0.0",
     "dotenv": "^14.2.0",
     "express": "^4.17.2",
     "mongoose": "^6.1.7",
