@@ -1,0 +1,25 @@
+.contact {
+    padding: 1rem 10rem;
+    color: #002a44;
+    min-height: 90vh;
+}
+
+.title {
+    margin-bottom: 4rem;
+}
+.title h2{
+    color: #002a44;
+}
+
+.areas {
+    display: flex;
+    align-items: center;
+}
+
+.network {
+    padding: 1rem 5rem;
+}
+
+a {
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,17 @@
+.socialLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px 50px;
+    text-decoration: none;
+}
+
+.socialLink a {
+    color: #32a8a6;
+    transition: 0.5s ease;
+}
+
+.socialLink a:hover {
+    color: #002a44;
+}

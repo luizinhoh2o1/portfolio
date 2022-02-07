@@ -1,0 +1,22 @@
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    min-width: 60vh;
+}
+
+input,textarea {
+    border: 2px solid #002a44;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+label {
+    color: #002a44;
+    padding-top: 1rem;
+}
+
+button {
+    margin: 1rem 0;
+}
